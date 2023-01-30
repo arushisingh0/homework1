@@ -322,7 +322,7 @@ list(
 
 What can you conclude?
 
-R stores matricies data column-wise, since the col-wise scans are consistently faster than the row-wise scans 
+With smaller matricies, the col-wise scans are faster, which makes sense since matrices in R are stored by column. However, as the matrix get bigger, the row wise scans are faster than the column-wise ones. 
 
 <br><br><br><br>
 <br><br><br><br>
